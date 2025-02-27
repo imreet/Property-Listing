@@ -1,11 +1,72 @@
-# User-Registration-and-login-System-with-admin-panel
-Contains index.php and Sql Files which are related to the project.
+# CRM based Property Listing Website
+A dynamic property listing platform built with HTML, PHP, and MySQL, allowing users to upload property listings, which are then displayed on two dummy websites.
 
-![screencapture-localhost-User-Registration-and-login-System-with-admin-panel-loginsystem-2021-02-04-12_54_36](https://user-images.githubusercontent.com/76723803/106859107-96993180-66e8-11eb-843c-240038396ab1.png)
-![screencapture-localhost-User-Registration-and-login-System-with-admin-panel-loginsystem-2021-02-04-12_54_58](https://user-images.githubusercontent.com/76723803/106859124-9e58d600-66e8-11eb-9b97-badf5eb7b66d.png)
-![screencapture-localhost-User-Registration-and-login-System-with-admin-panel-loginsystem-2021-02-04-12_55_14](https://user-images.githubusercontent.com/76723803/106859150-a4e74d80-66e8-11eb-8cb9-981b33624363.png)
-![screencapture-localhost-User-Registration-and-login-System-with-admin-panel-loginsystem-admin-2021-02-04-12_56_41](https://user-images.githubusercontent.com/76723803/106859168-a9136b00-66e8-11eb-9270-0261ca3bf6e4.png)
-![screencapture-localhost-User-Registration-and-login-System-with-admin-panel-loginsystem-admin-manage-users-php-2021-02-04-12_57_26](https://user-images.githubusercontent.com/76723803/106859186-add81f00-66e8-11eb-994f-d4ec7dd7e7b6.png)
+# 🌟 Features
+✅ Users can upload property listings with images, price, and details  
+✅ Listings automatically appear on two dummy websites  
+✅ Search and filter functionality for easy browsing  
+✅ Admin panel for managing listings  
+✅ Secure user authentication (if implemented)  
+✅ Responsive design for mobile and desktop users  
 
-# Admin Panel 
-Username:admin | Password:Admin123
+# 🛠️ Technologies Used
+Frontend: HTML, CSS, JavaScript  
+Backend: PHP  
+Database: MySQL  
+Server: XAMPP / Apache  
+
+# 🚀 Installation Guide
+1. Clone the Repository:  
+git clone https://github.com/imreet/property-listing.git  
+cd property-listing  
+
+2. Setup Database:  
+Import login_system.sql into MySQL using phpMyAdmin.  
+
+3. Set Up Dummy Websites:  
+Place the dummy website folders in htdocs/ (C:/xampp/htdocs/Property-listing/dummy1.php and C:/xampp/htdocs/Property-listing/dummy2.php).  
+Ensure they correctly fetch listings from the main database.  
+
+4. Run the Project:  
+Start XAMPP (Apache & MySQL).  
+Open your browser and go to:  
+http://localhost/property-listing/home.php  
+http://localhost/dummy1.php  
+http://localhost/dummy2.php  
+
+# 📸 Screenshots
+Home:
+![Property Listing Screenshot](Pic_README/Home.png)  
+
+Login:
+![Property Listing Screenshot](Pic_README/Login.png)  
+
+SignUp:
+![Property Listing Screenshot](Pic_README/SignUp.png)  
+
+Welcome/ Dashboard:
+![Property Listing Screenshot](Pic_README/dashboard.png)  
+
+Listings:
+![Property Listing Screenshot](Pic_README/FilledForm.png)  
+
+Dummy1 - FirstHomes:
+![Property Listing Screenshot](Pic_README/Dummy1.png)  
+Link: http://localhost/Property-Listing/dummy1.php  
+
+Dummy2 - MAKAAN:
+![Property Listing Screenshot](Pic_README/dummy2.png)  
+Link: http://localhost/Property-Listing/dummy2.php
+
+Once clicekd on submit, all the listings are listed onto these two dummy websites simultaneously.  
+
+Profile:
+![Property Listing Screenshot](Pic_README/profile.png)
+The listings posted by the users are diplayed onto their profile  
+
+# Login Details
+Username:abc | Password: abc123
+You can also create your own username 
+
+# 📜 License
+This project is open-source. Feel free to modify and use it.
